@@ -1,0 +1,26 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.2",
+    "express": "^4.16.4",
+    "express-async-handler": "^1.1.4",
+    "express-fileupload": "^1.1.5",
+    "express-handlebars": "^3.0.0",
+    "pg": "^7.7.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
